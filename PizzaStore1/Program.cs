@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace PizzaStore1
 {
-    internal class Program
+    public class Program
     {
-        
+        static void Main(string[] args)
+        {
+            Store BigMammasPizza = new Store();
+
+            BigMammasPizza.Start();
+        }
     }
 }
