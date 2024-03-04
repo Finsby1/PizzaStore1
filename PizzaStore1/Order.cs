@@ -13,11 +13,13 @@ namespace PizzaStore1
         Pizza p;
         Customer c;
 
+
         public Order(Pizza pizza, Customer customer)
         {
             p = pizza;
+            c = customer;
             Tax = 2;
-            _deliveryCost = 30;
+            _deliveryCost = 40;
         }
 
         double Tax
