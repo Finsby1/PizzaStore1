@@ -15,9 +15,9 @@ namespace PizzaStore1
             Pizza pizza2 = new Pizza("Vesuvio", 92);
             Pizza pizza3 = new Pizza("Capricciosa", 98);
 
-            Customer customer1 = new Customer();
-            Customer customer2 = new Customer();
-            Customer customer3 = new Customer();
+            Customer customer1 = new Customer("Benjamin", "61673916", "benjamin-jensen@outlook.com", "Møllegården 19, 4681 Herfølge");
+            Customer customer2 = new Customer("Erik", "12345678", "123@321.dk", "Strandvejen");
+            Customer customer3 = new Customer("Elsebeth", "12345678", "123@321.dk", "Strandvejen");
 
             Order order1 = new Order(pizza1, customer1);
             Order order2 = new Order(pizza2, customer2);

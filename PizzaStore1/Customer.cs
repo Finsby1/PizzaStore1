@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace PizzaStore1
             _name = "";
             _phonenr = "";
             _email = "";
-            _address = ""; 
+            _address = "";
         }
 
         public Customer(string name, string phonenr, string email, string address)
@@ -58,5 +59,6 @@ namespace PizzaStore1
         {
             return $"Name: {Name} - Phone nr. {Phonenr} - E-mail {Email} - Address {Address}";
         }
+        
     }
 }
